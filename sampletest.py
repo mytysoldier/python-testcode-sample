@@ -10,10 +10,10 @@ class SampleTest(unittest.TestCase):
         pass
 
     def testOk(self):
-        self.assertEqual("ゼロです。", sample.fizzbuzz(0))
+        self.assertEqual("ゼロです。", sample.calc(0))
     
     def testNg(self):
-        self.assertNotEquals("ゼロです。", sample.fizzbuzz(1))
+        self.assertNotEquals("ゼロです。", sample.calc(1))
 
 if __name__ == "__main__":
     unittest.main()

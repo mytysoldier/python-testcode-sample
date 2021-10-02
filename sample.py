@@ -1,4 +1,4 @@
-def fizzbuzz(number):
+def calc(number):
     if number == 0:
         return "ゼロです。"
     elif number == 1:
@@ -10,4 +10,4 @@ def fizzbuzz(number):
 
 if __name__ == "__main__":
     for i in range(1,4):
-        fizzbuzz(i)
+        calc(i)
